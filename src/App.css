@@ -1,0 +1,157 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+button{
+  background-color: white;
+  color: #282c34;
+  border: 0;
+  border-radius: 5px;
+  line-height: 50%;
+  cursor: pointer;
+}
+
+.App {
+  width: 1200px;
+  height: 800px;
+  margin: auto;
+  padding: auto;
+  background-color: #373c47;
+  color: white;
+}
+
+.App-header {
+  background-color: #282c34;
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+
+}
+
+/***************** add list *****************/
+.add-list{
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+.add-list label{
+  margin-right: 15px;
+}
+
+.add-list button { 
+  width: 60px;
+  height: 25px;
+  margin-left: 20px;
+}
+
+.content label{
+  margin-left: 50px;
+}
+
+.content input{
+  width: 250px;
+}
+
+/***************** card list *****************/
+.card-list {
+  padding: 50px 30px;
+  display: flex;
+}
+
+.card{
+  width: 350px;
+  border: 1px dotted white;
+  border-radius: 12px;
+  padding: 20px 15px;
+}
+.card p{
+  margin-bottom: 10px;
+}
+
+.card-title{
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.card-btn{
+  margin-top: 20px;
+  display: flex;
+  text-align: center;
+  justify-content: space-between;
+}
+
+.card-btn button{
+  width: 170px;
+  height: 30px;
+}
+
+.complete :hover{
+  background-color: greenyellow;
+  color: white;
+}
+
+.delete :hover{
+  background-color: red;
+  color: white;
+}
+
+.todo-list-title{
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin: 1rem 0;
+}
